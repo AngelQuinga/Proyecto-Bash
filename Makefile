@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -Wall
 
-all: Quinga-bash
+all: QuingaA-bash
 
-Quinga-bash: Quinga-bash.c
-	$(CC) $(CFLAGS) -o Quinga-bash Quinga-bash.c
+Quinga-bash: QuingaA-bash.c
+	$(CC) $(CFLAGS) -o QuingaA-bash QuingaA-bash.c
 
 clean:
-	rm -f Quinga-bash
+	rm -f QuingaA-bash
